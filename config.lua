@@ -1,25 +1,8 @@
-
--- ░█████╗░██████╗░███████╗░█████╗░████████╗███████╗██████╗░  ██████╗░██╗░░░██╗  ██╗░░██╗░█████╗░███████╗
--- ██╔══██╗██╔══██╗██╔════╝██╔══██╗╚══██╔══╝██╔════╝██╔══██╗  ██╔══██╗╚██╗░██╔╝  ██║░██╔╝██╔══██╗██╔════╝
--- ██║░░╚═╝██████╔╝█████╗░░███████║░░░██║░░░█████╗░░██║░░██║  ██████╦╝░╚████╔╝░  █████═╝░██║░░██║█████╗░░
--- ██║░░██╗██╔══██╗██╔══╝░░██╔══██║░░░██║░░░██╔══╝░░██║░░██║  ██╔══██╗░░╚██╔╝░░  ██╔═██╗░██║░░██║██╔══╝░░
--- ╚█████╔╝██║░░██║███████╗██║░░██║░░░██║░░░███████╗██████╔╝  ██████╦╝░░░██║░░░  ██║░╚██╗╚█████╔╝███████╗
--- ░╚════╝░╚═╝░░╚═╝╚══════╝╚═╝░░╚═╝░░░╚═╝░░░╚══════╝╚═════╝░  ╚═════╝░░░░╚═╝░░░  ╚═╝░░╚═╝░╚════╝░╚══════╝
-
--- ░██████╗░█████╗░██████╗░██╗██████╗░████████╗░██████╗
--- ██╔════╝██╔══██╗██╔══██╗██║██╔══██╗╚══██╔══╝██╔════╝
--- ╚█████╗░██║░░╚═╝██████╔╝██║██████╔╝░░░██║░░░╚█████╗░
--- ░╚═══██╗██║░░██╗██╔══██╗██║██╔═══╝░░░░██║░░░░╚═══██╗
--- ██████╔╝╚█████╔╝██║░░██║██║██║░░░░░░░░██║░░░██████╔╝
--- ╚═════╝░░╚════╝░╚═╝░░╚═╝╚═╝╚═╝░░░░░░░░╚═╝░░░╚═════╝░
-
-
-
 Config = {
 
     Policeraid = {
         Jobs = {
-            {job = "police", grade = 1},				---Set the name of your police and the minimum grade to breach the unit
+            {job = "police", grade = 3},				---Set the name of your police and the minimum grade to breach the unit
         },
     },
 }
@@ -31,8 +14,8 @@ Config.UnitPrice    = 35000                            ---Price of the units to 
 Config.SellPrice    = 20000                            ---Price of the unit when sold 
 Config.RentPrice    = 2000
 Config.Notify 		= 'ox_lib'							--- 'okok' for okokNotify(paid), 'swt' for swt_notifications(free), 'esx' Default esx notify, 'ox_lib' for ox_lib, and 'custom' if custom is selected you must go through client and server lua to add the trigger 
-Config.Slots 		= 25								---ONLY IF USING OX_INVENTORY
-Config.Weight		= 100000							---ONLY IF USING OX_INVENTORY
+Config.Slots 		= 50								---ONLY IF USING OX_INVENTORY
+Config.Weight		= 500000							---ONLY IF USING OX_INVENTORY
 
 
 
