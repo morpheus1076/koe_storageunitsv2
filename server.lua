@@ -1,13 +1,11 @@
 discord = {
-  ['webhook'] = '',  ---PUT YOUR WEBHOOK URL HERE
+  ['webhook'] = 'https://discord.com/api/webhooks/1111153026208636963/ag9G_ipRxfRCmRjZoAFzheNppWB2TdZmZQlU2SPi2nRAJmqwq_LequE61kHV02jLBHUO',  ---PUT YOUR WEBHOOK URL HERE
   ['name'] = 'Storage Units'
 }
 
 
 ----Gets ESX-----
-ESX = nil
-
-TriggerEvent('esx:getSharedObject', function(obj) ESX = obj end)
+ESX = exports["es_extended"]:getSharedObject()
 
 RegisterNetEvent('koe_storageunitsv2:checkUnit')
 AddEventHandler('koe_storageunitsv2:checkUnit', function(storageID, balance)

@@ -1,7 +1,5 @@
 fx_version 'adamant'
-
 game 'gta5'
-
 version '1.1.0'
 lua54 'yes'
 
@@ -16,12 +14,4 @@ client_scripts {
 	'server.lua',
 	'updater.lua'
  }
-
- escrow_ignore {
-	'config.lua',
-	'client.lua',
-	'server.lua',
-  }
-
  shared_script '@ox_lib/init.lua'
-dependency '/assetpacks'
