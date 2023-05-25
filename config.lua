@@ -10,9 +10,9 @@ Config = {
 --General Options
 Config.Target		= 'ox_target'							-- 'ox_target' for Ox Target | 'qtarget' for qtarget
 
-Config.UnitPrice    = 35000                            ---Price of the units to buy
-Config.SellPrice    = 20000                            ---Price of the unit when sold 
-Config.RentPrice    = 2000
+Config.UnitPrice    = 75000                           ---Price of the units to buy
+Config.SellPrice    = 50000                           ---Price of the unit when sold 
+Config.RentPrice    = 2500
 Config.Notify 		= 'ox_lib'							--- 'okok' for okokNotify(paid), 'swt' for swt_notifications(free), 'esx' Default esx notify, 'ox_lib' for ox_lib, and 'custom' if custom is selected you must go through client and server lua to add the trigger 
 Config.Slots 		= 50								---ONLY IF USING OX_INVENTORY
 Config.Weight		= 500000							---ONLY IF USING OX_INVENTORY
